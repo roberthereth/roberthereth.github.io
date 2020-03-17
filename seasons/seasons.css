@@ -1,0 +1,126 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial;
+	background-image: url("ss_bg.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#wrap {
+	width: 70%;
+	margin: 0 auto;
+	background-color: rgba(174, 146, 146, 0.8);
+	font-family: Verdana;
+}
+
+#springWrap {
+	width: 70%;
+	margin: 0 auto;
+	background-color: rgba(243, 153, 158, 0.8);
+	font-family: Verdana;
+}
+
+#summerWrap {
+	width: 70%;
+	margin: 0 auto;
+	background-color: rgba(239, 204, 86, 0.8);
+	font-family: Verdana;
+}
+
+#fallWrap {
+	width: 70%;
+	margin: 0 auto;
+	background-color: rgba(166, 69, 69, 0.8);
+	font-family: Verdana;
+}
+
+#winterWrap {
+	width: 70%;
+	margin: 0 auto;
+	background-color: rgba(208, 248, 244, 0.8);
+	font-family: Verdana;
+}
+
+header {
+	font-size: 40px;
+	text-align: center;
+	font-variant: bold;
+}
+
+nav {
+	background-color: #88718a;
+	text-align: center;
+	padding: 10px 0;
+	font-family: Verdana;
+}
+
+nav a {
+	color: #fcf4ed;
+	padding: 10px 45px;
+	text-decoration: none;
+	font-size: 28px;
+}
+
+#home a:hover {
+	color: black;
+	font: bold;
+	background-color: #8871b5;
+}
+
+#spring a:hover {
+	color: black;
+	font: bold;
+	background-image: url("springBanner.jpg");
+}
+
+#summer a:hover {
+	color: black;
+	font: bold;
+	background-image: url("summerBanner.jpg");
+}
+
+#fall a:hover {
+	color: black;
+	font: bold;
+	background-image: url("fallBanner.jpg");
+}
+
+#winter a:hover {
+	color: black;
+	font: bold;
+	background-image: url("winterBanner.jpg");
+}
+
+nav li {
+	display: inline;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+#spices {
+	width: 35%;
+	float: right;
+	padding: 25px;
+}
+
+#food {
+	width: 35%;
+	float: left;
+	padding: 25px;
+}
+
+section {
+	padding: 10px 20px;
+	overflow: auto;
+}
+
+footer {
+	text-align: center;
+}
