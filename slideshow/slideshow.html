@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Slideshow</title>
+		<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+		<link href="slideshow.css" rel="stylesheet" type="text/CSS">
+	</head>
+	
+	<body>
+	  <div id="wrap">
+		<header>
+			Impressions I Can Do
+		</header>
+		
+		
+		<section>
+			<div class="slider-wrapper theme-default">
+				<div id="slider" class="nivoSlider">
+					<img src="images/kronk.jpg" data-thumb="images/kronk.jpg" alt="" title="This is my favorite one to do!"/>
+					<a href="https://youtu.be/2BS3oePljr8"><img src="images/kermie.jpeg" data-thumb="images/kermie.jpeg" alt="" title="Not my favorite to do, but I'm not too bad at it." /></a>
+					<img src="images/king.png" data-thumb="images/king.png" alt="" data-transition="slideInLeft" title="Me and my friend can basically reenact any scene that he is in, as long as Mort is in it too!"/>
+					<img src="images/doof.png" data-thumb="images/doof.png" alt="" title="#htmlcaption"/>
+				</div>
+				<div id="htmlcaption" class="nivo-html-caption">
+					<strong>I'm</strong> pretty good at <em>this</em> one too! <a href="https://youtu.be/XwRmf1KPqXo">THEME</a>. 
+				</div>
+			</div>
+		</section>
+		
+		<footer>
+			Yes, I can do all these. No, I will not do them in class (not online).  :)
+		</footer>
+	  </div> <!--Close Wrap-->
+		<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+		<script type="text/javascript" src="jquery.nivo.slider.js"></script>
+		<script type="text/javascript">
+		$(window).load(function() {
+			$('#slider').nivoSlider();
+		});
+		</script>
+	</body>
+	
+</html>

@@ -1,0 +1,39 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #ddd;
+}
+
+body {
+	!!
+}
+
+#wrap {
+	width: 70%;
+	margin: 0 auto;
+}
+
+header, 
+nav,
+section, 
+footer {
+	background-color: #fff;
+	margin: 10px 0;
+}
+
+header {
+	text-align: center;
+	font-size: 34px;
+}
+
+nav {
+	!!
+}
+
+section {
+	!!
+}
+
+footer {
+	!!
+}
