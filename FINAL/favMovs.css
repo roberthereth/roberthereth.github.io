@@ -1,0 +1,90 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Baloo Paaji 2', cursive;
+}
+
+body {
+	background-color: #ffdac1;
+}
+
+#wrap {
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+
+header {
+	!!
+}
+
+nav {
+	font-family: 'Baloo Paaji 2', cursive;
+	font-size: 22px;
+	padding: 0 4px;
+}
+
+section {
+	width: 100%;
+}
+
+#about {
+	float: left;
+	padding: 1% 2%;
+	width: 40%;
+}
+
+#about p {
+	font-size: 18px;
+}
+
+#form {
+	float: right;
+	width: 50%;
+	padding: 1%;
+	margin: 0;
+	height: 400px;
+}
+
+#socialMedia {
+	padding: 10%;
+	float: center;
+}
+
+
+.intro {
+	width: 95%;
+	text-align: center;
+}
+
+.intro p{
+	font-size: 18px;
+	text-align: left;
+}
+
+.slideshow {
+	width: 100%;
+	padding: 1% 15%;
+}
+
+.reviews {
+	width: 95%;
+}
+
+.reviews p {
+	font-size: 16px;
+}
+
+.video {
+	padding: 0 28%;
+	width: 100%;
+}
+
+footer {
+	background-color: #ffb7b2;
+}
+
+#tag {
+	float: center;
+}
